@@ -1,0 +1,316 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    li{
+        display: inline;
+        
+    }
+
+
+
+.navdiv{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.signup{
+    height: 45.12px;
+    width: 114.42px;
+    border: 1px,solid,orangered;
+    border-radius: 8.06px;
+    color: orangered;
+}
+
+.login{
+    height: 45.12px;
+    width: 114.42px;
+    border: 1px,solid,orangered;
+    border-radius: 8.06px;
+    color: white;
+    background-color: orangered;
+}
+
+
+.img1{
+    
+    border-radius: 16.05;
+    width: 536.07px;
+    height: 359.52px;
+    top: 266px;
+    left: 804px;
+
+}
+
+
+.div1{
+    display: flex;
+    padding-top: 20%;
+    justify-content: space-around;
+
+}
+
+.food{
+    size: 60px;
+    line-height: 54.46px;
+    font-family: sans-serif;
+    
+    
+}
+
+.EXPLORE{
+    height: 52px;
+    width: 278px;
+    border-radius: 8px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    color: white;
+    border: 1PX,solid,orangered;
+    
+}
+
+
+.div2{
+    display: flex;
+    padding-top:20% ;
+    justify-content: space-around;
+
+}
+
+
+.div3{
+    border: 1px,solid,black;
+    width: 343.88px;
+    height: 340.97px;
+    border-radius: 10.28px;
+    padding: 20.56px;
+    gap: 23.13px;
+    box-shadow:1px 1px ;
+}
+
+
+.div4{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.cake{
+    margin-right: 60%;
+}
+
+
+.button1{
+    background-color: rgb(224, 197, 42);
+    color: white;
+    border: 1px,solid,rgb(224, 197, 42);
+    border-radius: 33.38px;
+}
+
+.button2{
+    background-color: orangered;
+    color: white;
+    border: 1px,solid,orangered;
+    border-radius: 33.38px;
+    gap: 3.3px;
+}
+
+.button3{
+    background-color: blue;
+    color: white;
+    border: 1px,solid,blue;
+    border-radius: 33.38px;
+}
+
+
+.divprice1{
+    display: flex;
+    
+    
+
+}
+
+.divordercake{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cake1{
+    width: 100px;
+}
+
+.order2{
+    width: 302.7px;
+    height: 48.8px;
+    border: 1px,solid,orangered;
+    border-radius: 7.71px;
+    color: white;
+    background-color: orangered;
+}
+
+.span1{
+    margin-left: 6px;
+    display: inline;
+    border: 1px,solid,black;
+    width: 20px;
+    height: 20px;
+    border-radius: 2.5px;
+    text-align: center;
+    
+}
+
+.span0{
+    display: flex;
+    margin-left: 50%;
+    
+}
+
+
+.span2{
+    margin-left: 6px;
+    display: inline;
+    border: 1px,solid,black;
+    width: 20px;
+    height: 20px;
+    border-radius: 2.5px;
+    text-align: center;
+
+}
+
+
+
+.div10{
+    border: 1px,solid,black;
+    width: 343.88px;
+    height: 340.97px;
+    border-radius: 10.28px;
+    padding: 20.56px;
+    gap: 23.13px;
+    box-shadow:1px 1px ;
+}
+
+
+.div11{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cinnamon{
+  margin-right: 60%;
+}
+
+
+.button11{
+    background-color: rgb(224, 197, 42);
+    color: white;
+    border: 1px,solid,rgb(224, 197, 42);
+    border-radius: 33.38px;
+}
+
+.button12{
+    background-color: orangered;
+    color: white;
+    border: 1px,solid,orangered;
+    border-radius: 33.38px;
+}
+
+.button13{
+    background-color: blue;
+    color: white;
+    border: 1px,solid,blue;
+    border-radius: 33.38px;
+}
+
+.divprice2{
+    display: flex;
+}
+
+
+.order3{
+    width: 302.7px;
+    height: 48.8px;
+    border: 1px,solid,orangered;
+    border-radius: 7.71px;
+    color: white;
+    background-color: orangered;
+}
+
+
+.div20{
+    border: 1px,solid,black;
+    width: 343.88px;
+    height: 340.97px;
+    border-radius: 10.28px;
+    padding: 20.56px;
+    gap: 23.13px;
+    box-shadow:1px 1px ;
+}
+
+.div21{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.muffins{
+    margin-right: 60%;
+}
+
+.navbar1{
+    height: 292px;
+    
+    border: 1px,solid,orangered;
+    background-color: orangered;
+    color: white;
+    margin-top: 20%;
+    text-align: center;
+    
+
+
+}
+
+.fav{
+    width:191px;
+height:42px;
+padding-left: 10%;
+padding-top: 15%;
+}
+
+
+@media only screen and(max-width:760px) {
+   body{
+    background-color: lightblue;
+   } 
+
+   .div2{
+    flex-direction: column;
+   }
+}
+
+@media only screen and (max-width:600px) {
+    
+ 
+    
+.div2{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+gap: 40px;
+}
+    
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+}
+    
+}
